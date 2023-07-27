@@ -1,0 +1,45 @@
+
+body {
+	background-color:rgb(42, 176, 8);
+}
+
+h1 {
+
+	text-align: center;
+	font-size: 2em;
+	color: #f00808;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80vmin;
+	height: 80vmin;
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: rgb(155, 140, 4);
+	cursor: url(../img/Hammer.png), auto;
+}
+
+.cell {
+	width: 25%;
+	height: 25%;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.goblin {
+	width: 25%;
+	height: 25%;
+	background-image: url('../img/goblin.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.status {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #f7ff02;
+  }
